@@ -1,0 +1,2 @@
+﻿http://localhost:9090/v1/SnaLBS/findNearestPlace/35.2988736/46.9894574/
+http://localhost:9090/v1/SnaLBS/findNearestPlaceByRadious/35.2988736/46.9894574/1000

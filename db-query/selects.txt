@@ -1,0 +1,12 @@
+﻿SELECT place_name,lat, lon,tpes,ST_Distance_Sphere(geo, st_setsrid(st_makepoint( 35.311423, 46.996114),4326)) as distance
+FROM sanandaj_place
+
+ORDER BY distance
+LIMIT 10;
+
+///////////////////////////
+SELECT place_name,lat, lon,tpes,ST_Distance_Sphere(geo, st_setsrid(st_makepoint( 46.967017,35.321639),4326)) as distance
+FROM sanandaj_place
+
+ORDER BY distance
+LIMIT 20;

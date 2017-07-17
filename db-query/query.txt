@@ -1,0 +1,26 @@
+﻿INSERT INTO sanandaj_place (  place_name, lat, lon,place_descryption,geo)
+VALUES
+('نان لواش',35.298900,46.990131,'نان لواش',
+ ST_SetSRID(ST_MakePoint(46.990131,35.298900), 4326));
+ 
+ 
+ INSERT INTO sanandaj_place (  place_name, lat, lon,place_descryption,geo)
+VALUES
+('SADAF',35.298900,46.990131,'مجتمع تجاری',
+ ST_SetSRID(ST_MakePoint(46.990131,35.298900), 4326));
+ 
+ INSERT INTO sanandaj_place (  place_name, lat, lon,place_descryption,geo)
+VALUES
+('هتل آبیدر',35.298900, 46.990131,' هتل آبیدر',
+ ST_SetSRID(ST_MakePoint(46.990131,35.298900), 4326));
+ 
+ INSERT INTO sanandaj_place (  place_name, lat, lon,place_descryption,geo)
+VALUES
+('پیتزا آناهیتا',35.298900,46.990131,'پیتزا آناهیتا',
+ ST_SetSRID(ST_MakePoint(46.990131,35.298900), 4326));
+ 
+ 
+ 
+ 
+ 
+
